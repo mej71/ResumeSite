@@ -11,8 +11,8 @@ body {
 
 main {
     background-color: #57B27C;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #0E161B;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 20);
 }
 
 a, a:hover {
@@ -36,6 +36,7 @@ h2 {
 
 .profile h1 {
     padding-top: 20px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
@@ -45,14 +46,14 @@ h2 {
 }
 
 .picture img {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .btn-cv {
     padding: 10px;
     color: white;
     background-color: #0E161B;
-    width: 100%;
+    width: 90%;
     border-radius: 0px;
 }
 
