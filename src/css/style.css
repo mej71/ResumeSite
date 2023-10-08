@@ -5,23 +5,24 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     padding: 40px 0px;
-    color: #3d3d3f;
+    color: #0E161B;
+    background-color: #DAF7DC;
 }
 
 main {
-    background-color: #fff;
+    background-color: #57B27C;
     border: 1px solid #ddd;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 a, a:hover {
-    color: #64b67e;
+    color: #0E161B;
 }
 
 h2 {
     font-size: 20px;
     font-weight: 500;
-    color: #64b67e;
+    color: #0E161B;
 }
 
 .left-side {
@@ -50,14 +51,14 @@ h2 {
 .btn-cv {
     padding: 10px;
     color: white;
-    background-color: #64b67e;
+    background-color: #0E161B;
     width: 100%;
     border-radius: 0px;
 }
 
 .btn-cv:hover {
     color: #fff;
-    background-color: #64b67e;
+    background-color: #0E161B;
 }
 
 .btn:focus, .btn:active {
@@ -81,7 +82,7 @@ h2 {
 
 section {
     padding: 40px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #0E161B;
 }
 
 .section-title {
@@ -94,7 +95,7 @@ section {
 }
 
 .company, .school-name{
-    color: #64b67e;
+    color: #0E161B;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 0px;
@@ -103,7 +104,7 @@ section {
 .time {
     font-size: 15px;
     font-weight: 500;
-    color: #64b67e;
+    color: #0E161B;
 }
 
 .job-title, .school-title {
@@ -117,7 +118,7 @@ section {
 }
 
 .honors h3{
-    color: #64b67e;
+    color: #0E161B;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 0px;
@@ -127,16 +128,6 @@ section {
     padding-top: 5px;
 }
 
-.form-group input, .form-group textarea {
-    border-radius: 0px;
-    border-color: #ddd;
-}
-
-.form-control:focus {
-    box-shadow: none;
-    border-radius: 0px;
-    border-color: #ddd;
-}
 
 footer {
     text-align: center;
@@ -145,13 +136,13 @@ footer {
 
 @media (max-width: 991.98px) {
     .right-side {
-        border-top: 1px solid #ddd;
+        border-top: 1px solid #0E161B;
     }
 }
 
 @media (min-width: 992px) {
     .left-side {
-        border-right: 1px solid #ddd;
+        border-right: 1px solid #0E161B;
     }
 
     .time {
