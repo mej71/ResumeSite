@@ -7,7 +7,7 @@ var visitCount = $.ajax({
   dataType: "json",
     data: {
     },
-  success: function() { alert("Success"); },
+  success: function() { alert(this.data); },
   error: function() { alert('Failed!'); },
 });
 
