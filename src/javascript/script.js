@@ -1,5 +1,5 @@
 var counterContainer = document.querySelector(".website-counter");
-
+var visitCount = 0;
 // Define the URL of your Azure Function
 const functionUrl = "https://resumesite-pyapi.azurewebsites.net/api/HttpVisitor?&name=Azure";
 
@@ -10,21 +10,19 @@ const data = {
 
 // Create an AJAX request using the fetch API
 fetch(functionUrl, {
-    method: "GET", // or "POST" if you need to send data
+    method: "GET",
     headers: {
         "Content-Type": "application/json",
     },
-    // If you need to send data, you can use the following line
-    // body: JSON.stringify(data),
 })
     .then(response => {
         if (!response.ok) {
             throw new Error("Network response was not ok");
         }
-        return response.text(); // assuming you expect plain text as the response
+        return response.text();
     })
     .then(data => {
-        console.log(data); // "42" should be printed in the console
+        console.log(data);
         visitCount = data;
     })
     .catch(error => {
