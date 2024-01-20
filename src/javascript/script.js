@@ -33,5 +33,5 @@ fetch(functionUrl, {
     })
     .finally( data => {
       console.log("is this thing on?");
-      counterContainer.innerHTML = "Website visit count: " + 10;    
+      counterContainer.innerHTML = "Website visit count: " + visitCount;    
   });
