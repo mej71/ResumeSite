@@ -23,7 +23,8 @@ fetch(functionUrl, {
     })
     .then(data => {
         const visitCount = Number(data.retval) + 1;
-        console.log(data.retval);
+        console.log(typeof(data));
+        console.log(String(data));
         console.log(visitCount)
     })
     .catch(error => {
