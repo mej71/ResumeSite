@@ -29,6 +29,7 @@ fetch(functionUrl, {
         visitCount = "0";
     })
     .finally( data => {
+        console.log(visitCount);
       visitCount = Number(visitCount) + 1;
       counterContainer.innerHTML = "Website visit count: " + visitCount;    
   });
