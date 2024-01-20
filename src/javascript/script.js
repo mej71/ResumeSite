@@ -22,14 +22,14 @@ fetch(functionUrl, {
         return response.text();
     })
     .then(data => {
-        visitCount = data;
+        const extractedValue = Number(data.retval);
+        visitCount = extractedValue;
     })
     .catch(error => {
         console.error("There was a problem with the fetch operation:", error);
         visitCount = "0";
     })
     .finally( data => {
-        console.log(visitCount);
       visitCount = Number(visitCount) + 1;
       counterContainer.innerHTML = "Website visit count: " + visitCount;    
   });
