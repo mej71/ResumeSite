@@ -24,8 +24,6 @@ fetch(functionUrl, {
     .then(data => {
         const dataJSON = JSON.parse(data);
         const visitCount = Number(dataJSON.retval) + 1;
-        console.log(data);
-        console.log(dataJSON);
         console.log(visitCount)
     })
     .catch(error => {
@@ -35,5 +33,5 @@ fetch(functionUrl, {
     })
     .finally( data => {
       console.log("is this thing on?");
-      counterContainer.innerHTML = "Website visit count: " + visitCount;    
+      counterContainer.innerHTML = "Website visit count: " + 10;    
   });
