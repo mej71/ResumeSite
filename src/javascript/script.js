@@ -1,7 +1,7 @@
 var counterContainer = document.querySelector(".website-counter");
 var visitCount = 0;
 // Define the URL of your Azure Function
-const functionUrl = "https://resumesite-pyapi.azurewebsites.net/api/HttpVisitor?&name=Azure";
+const functionUrl = "https://resumesitepyapi.azurewebsites.net/api/HttpTrigger1?code=hRT8PCLqcMDQJHFha39n7EZgU-HbmP2kBTuJ5TLfKplZAzFucmEZvQ==";
 
 // Define the data you want to send (if needed)
 const data = {
