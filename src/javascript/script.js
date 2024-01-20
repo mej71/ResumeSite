@@ -14,7 +14,6 @@ fetch(functionUrl, {
     headers: {
         "Content-Type": "application/json",
     },
-    mode: 'no-cors',
 })
     .then(response => {
         if (!response.ok) {
