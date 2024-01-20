@@ -30,8 +30,10 @@ fetch(functionUrl, {
     })
     .catch(error => {
         console.error("There was a problem with the fetch operation:", error);
+        console.log(error);
         visitCount = "0";
     })
     .finally( data => {
+      console.log("is this thing on?");
       counterContainer.innerHTML = "Website visit count: " + visitCount;    
   });
