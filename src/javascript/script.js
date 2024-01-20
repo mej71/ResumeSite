@@ -24,6 +24,9 @@ fetch(functionUrl, {
     .then(data => {
         const dataJSON = JSON.parse(data);
         const visitCount = Number(dataJSON.retval) + 1;
+        console.log(data);
+        console.log(dataJSON);
+        console.log(visitCount)
     })
     .catch(error => {
         console.error("There was a problem with the fetch operation:", error);
